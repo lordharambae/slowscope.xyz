@@ -1,0 +1,62 @@
+section.welcome {
+  width: 100%;
+  height: 100%;
+}
+section.welcome div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+section.welcome div h1 {
+  font: 300 50px/1 $rajdhani;
+  letter-spacing: 3px;
+  color: #000;
+}
+section.welcome div hr {
+  margin: 20px 0;
+  width: 10%;
+  height: 4px;
+  background: $catskill-white;
+  border: 0;
+}
+section.welcome div h2 {
+  font: 300 20px/1 $arcon;
+  letter-spacing: 2px;
+  color: $san-juan;
+}
+section.welcome a {
+  position: absolute;
+  padding: 20px 0;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  font: 300 12px $arcon;
+  letter-spacing: 2px;
+  color: $deep-blush;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+section.welcome a:link,
+section.welcome a:visited {
+  text-decoration: none;
+}
+section.welcome a:visited:hover,
+section.welcome a:hover {
+  text-decoration: underline;
+}

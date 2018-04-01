@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "rajdhani";
+  src: url("../../www/eot/rajdhani.eot");
+  src: url("../../www/eot/rajdhani.eot?#iefix") format("embedded-opentype"), url("../../www/woff2/rajdhani.woff2") format("woff2"), url("../../www/woff/rajdhani.woff") format("woff"), url("../../www/ttf/rajdhani.ttf") format("truetype"), url("../../www/svg/rajdhani.svg#rajdhani") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "arcon";
+  src: url("../../www/eot/arcon.eot");
+  src: url("../../www/eot/arcon.eot?#iefix") format("embedded-opentype"), url("../../www/woff2/arcon.woff2") format("woff2"), url("../../www/woff/arcon.woff") format("woff"), url("../../www/ttf/arcon.ttf") format("truetype"), url("../../www/svg/arcon.svg#arcon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}

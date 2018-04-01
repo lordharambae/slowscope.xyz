@@ -1,0 +1,49 @@
+section.welcome
+	width 100%
+	height 100%
+	
+	div
+		position absolute
+		top 50%
+		left 50%
+		transform translate(-50%,-50%)
+		display flex
+		align-items center
+		justify-content center
+		flex-direction column
+
+		h1
+			font 300 50px/1 $rajdhani
+			letter-spacing 3px
+			color black
+
+
+		hr 
+			margin 20px 0
+			width 10%
+			height 4px
+			background $catskill-white
+			border 0
+
+
+		h2 
+			font 300 20px/1 $arcon
+			letter-spacing 2px
+			color $san-juan
+	
+	a
+		position absolute
+		padding 20px 0
+		bottom 0
+		left 50%
+		transform translate(-50%)
+		font 300 12px $arcon
+		letter-spacing 2px
+		color $deep-blush
+		align-self flex-end
+		
+		&:link, &:visited
+			text-decoration none
+			
+		&:visited:hover, &:hover
+			text-decoration underline
