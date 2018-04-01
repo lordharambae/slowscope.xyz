@@ -2,7 +2,7 @@ section.welcome {
   width: 100%;
   height: 100%;
 }
-section.welcome div {
+section.welcome div.main {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -22,41 +22,56 @@ section.welcome div {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-section.welcome div h1 {
+section.welcome div.main h2 {
+  font: 300 14px/1 $arcon;
+  letter-spacing: 4px;
+  color: $iron;
+}
+section.welcome div.main h1 {
+  margin: 18px 0;
   font: 300 50px/1 $rajdhani;
   letter-spacing: 3px;
   color: #000;
 }
-section.welcome div hr {
-  margin: 20px 0;
-  width: 10%;
-  height: 4px;
-  background: $catskill-white;
-  border: 0;
+section.welcome div.main a {
+  font: 300 15px/1 $arcon;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #000;
 }
-section.welcome div h2 {
-  font: 300 20px/1 $arcon;
-  letter-spacing: 2px;
-  color: $san-juan;
-}
-section.welcome a {
+section.welcome div.main a:link::after,
+section.welcome div.main a:visited::after {
+  content: "";
   position: absolute;
-  padding: 20px 0;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: $deep-blush;
+  -webkit-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+section.welcome div.main a:hover::after,
+section.welcome div.main a:visited:hover::after,
+section.welcome div.main a:active::after {
+  content: "";
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  -webkit-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+  height: 1px;
+  background: $deep-blush;
+}
+section.welcome div.footer {
+  position: absolute;
   bottom: 0;
   left: 50%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
-  font: 300 12px $arcon;
-  letter-spacing: 2px;
-  color: $deep-blush;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
 }
-section.welcome a:link,
-section.welcome a:visited {
-  text-decoration: none;
-}
-section.welcome a:visited:hover,
-section.welcome a:hover {
-  text-decoration: underline;
+section.welcome div.footer p {
+  margin: 15px 0;
+  font: 300 15px/1 $rajdhani;
+  color: $calypso;
 }
