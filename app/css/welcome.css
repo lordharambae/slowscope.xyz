@@ -39,27 +39,12 @@ section.welcome div.main a {
   text-decoration: none;
   color: #000;
 }
-section.welcome div.main a:link::after,
-section.welcome div.main a:visited::after {
+section.welcome div.main a::after {
   content: "";
   position: absolute;
   bottom: -2px;
   left: 0;
-  width: 0;
-  height: 1px;
-  background: $deep-blush;
-  -webkit-transition: 0.2s ease-in;
-  transition: 0.2s ease-in;
-}
-section.welcome div.main a:hover::after,
-section.welcome div.main a:visited:hover::after,
-section.welcome div.main a:active::after {
-  content: "";
-  bottom: -2px;
-  left: 0;
   width: 100%;
-  -webkit-transition: 0.2s ease-in;
-  transition: 0.2s ease-in;
   height: 1px;
   background: $deep-blush;
 }
