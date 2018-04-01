@@ -1,0 +1,15 @@
+{
+  "name": "slowscope.xyz",
+  "version": "1.0.0",
+  "description": "Slowscope eSports",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "harambae",
+  "license": "ISC"
+}
