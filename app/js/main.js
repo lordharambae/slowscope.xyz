@@ -1,4 +1,3 @@
 "use strict";
-(function () {
-})();
+(function () {})();
 //# sourceMappingURL=main.js.map
