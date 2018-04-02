@@ -1,8 +1,8 @@
-section.welcome {
+main {
   height: 100%;
   width: 100%;
 }
-section.welcome div.main {
+main section {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -22,126 +22,135 @@ section.welcome div.main {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-section.welcome div.main h2 {
+main section h2 {
   font-family: $arcon;
   font-weight: 300;
   line-height: 1;
   letter-spacing: 4px;
   color: $iron;
 }
-section.welcome div.main h1 {
+main section h1 {
   font-family: $rajdhani;
   font-weight: 300;
   line-height: 1;
   letter-spacing: 3px;
   color: #000;
 }
-section.welcome div.main a {
-  font-family: $arcon;
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: 1px;
-  text-decoration: none;
-  color: #000;
+main section ul {
+  list-style: none;
 }
-section.welcome div.main a::after {
-  content: "";
-  position: absolute;
-  bottom: -2px;
-  left: 0;
-  width: 100%;
-  height: 1px;
-  background: $deep-blush;
+main section ul li {
+  display: inline-block;
 }
-section.welcome div.footer {
+main div {
   position: absolute;
   bottom: 0;
   left: 50%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
 }
-section.welcome div.footer p {
+main div h4 {
   font-family: $rajdhani;
   font-weight: 300;
   line-height: 1;
   color: $blue-bayoux;
 }
 @media only screen and (max-width: $xsmall -1) {
-  section.welcome div.main h2 {
+  main section h2 {
     font-size: 10px;
   }
-  section.welcome div.main h1 {
+  main section h1 {
     margin: 12px 0;
     font-size: 36px;
   }
-  section.welcome div.main a {
-    font-size: 11px;
+  main section ul li {
+    margin: 0 10px;
   }
-  section.welcome div.footer p {
+  main section ul li img {
+    width: 20px;
+    height: 20px;
+  }
+  main div h4 {
     margin: 9px 0;
     font-size: 19px;
   }
 }
 @media only screen and (min-width: $xsmall) and (max-width: $small -1) {
-  section.welcome div.main h2 {
+  main section h2 {
     font-size: 12px;
   }
-  section.welcome div.main h1 {
+  main section h1 {
     margin: 15px 0;
     font-size: 43px;
   }
-  section.welcome div.main a {
-    font-size: 13px;
+  main section ul li {
+    margin: 0 12px;
   }
-  section.welcome div.footer p {
+  main section ul li img {
+    width: 22px;
+    height: 22px;
+  }
+  main div h4 {
     margin: 12px 0;
     font-size: 17px;
   }
 }
 @media only screen and (min-width: $small) and (max-width: $large -1) {
-  section.welcome div.main h2 {
+  main section h2 {
     font-size: 14px;
   }
-  section.welcome div.main h1 {
+  main section h1 {
     margin: 18px 0;
     font-size: 50px;
   }
-  section.welcome div.main a {
-    font-size: 15px;
+  main section ul li {
+    margin: 0 14px;
   }
-  section.welcome div.footer p {
+  main section ul li img {
+    width: 24px;
+    height: 24px;
+  }
+  main div h4 {
     margin: 15px 0;
     font-size: 15px;
   }
 }
 @media only screen and (min-width: $large) and (max-width: $xlarge -1) {
-  section.welcome div.main h2 {
+  main section h2 {
     font-size: 16px;
   }
-  section.welcome div.main h1 {
+  main section h1 {
     margin: 18px 0;
     font-size: 57px;
   }
-  section.welcome div.main a {
-    font-size: 17px;
+  main section ul li {
+    margin: 0 16px;
   }
-  section.welcome div.footer p {
+  main section ul li img {
+    width: 26px;
+    height: 26px;
+  }
+  main div h4 {
     margin: 18px 0;
     font-size: 17px;
   }
 }
 @media only screen and (min-width: $xlarge) {
-  section.welcome div.main h2 {
+  main section h2 {
     font-size: 18px;
   }
-  section.welcome div.main h1 {
+  main section h1 {
     margin: 18px 0;
     font-size: 64px;
   }
-  section.welcome div.main a {
-    font-size: 19px;
+  main section ul li {
+    margin: 0 18px;
   }
-  section.welcome div.footer p {
+  main section ul li img {
+    width: 28px;
+    height: 28px;
+  }
+  main div h4 {
     margin: 21px 0;
     font-size: 19px;
   }

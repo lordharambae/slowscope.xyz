@@ -1,8 +1,8 @@
-section.welcome
+main
 	height 100%
 	width 100%
 	
-	div.main
+	section
 		position absolute
 		top 50%
 		left 50%
@@ -25,32 +25,22 @@ section.welcome
 			line-height 1
 			letter-spacing 3px
 			color black
-		
-		a
-			font-family $arcon
-			font-weight 300
-			line-height 1
-			letter-spacing 1px 
-			text-decoration none
-			color black 
 			
-			&::after
-				content ""
-				position absolute
-				bottom -2px
-				left 0
-				width 100%
-				height 1px
-				background $deep-blush
+		ul
+			list-style none
+			
+			li
+				display inline-block
 
+		
 				
-	div.footer
+	div
 		position absolute
 		bottom 0
 		left 50%
 		transform translate(-50%)
 		
-		p
+		h4
 			font-family $rajdhani
 			font-weight 300
 			line-height 1
@@ -58,9 +48,9 @@ section.welcome
 			
 
 @media only screen and (max-width: $xsmall - 1)
-	section.welcome
+	main
 
-		div.main
+		section
 			
 			h2 
 				font-size 10px
@@ -69,21 +59,27 @@ section.welcome
 				margin 12px 0
 				font-size 36px
 			
-			a
-				font-size 11px
+			ul
+			
+				li
+					margin 0 10px
+					
+					img
+						width 20px
+						height 20px
 				
 					
-		div.footer
+		div
 			
-			p
+			h4
 				margin 9px 0
 				font-size 19px
 
 @media only screen and (min-width: $xsmall) and (max-width: $small - 1)
 
-	section.welcome
+	main
 
-		div.main
+		section
 			
 			h2 
 				font-size 12px
@@ -92,22 +88,27 @@ section.welcome
 				margin 15px 0
 				font-size 43px
 				
+			ul
 			
-			a
-				font-size 13px
+				li
+					margin 0 12px
 					
-		div.footer
+					img
+						width 22px
+						height 22px
+					
+		div
 			
-			p
+			h4
 				margin 12px 0
 				font-size 17px
 
 
 @media only screen and (min-width: $small) and (max-width: $large - 1)
 
-	section.welcome
+	main
 
-		div.main
+		section
 			
 			h2 
 				font-size 14px
@@ -115,22 +116,28 @@ section.welcome
 			h1
 				margin 18px 0
 				font-size 50px
+				
+			ul
 			
-			a
-				font-size 15px
+				li
+					margin 0 14px
 					
-		div.footer
+					img
+						width 24px
+						height 24px
+					
+		div
 			
-			p
+			h4
 				margin 15px 0
 				font-size 15px
 
 
 @media only screen and (min-width: $large) and (max-width: $xlarge - 1)
 
-	section.welcome
+	main
 
-		div.main
+		section
 			
 			h2 
 				font-size 16px
@@ -139,21 +146,27 @@ section.welcome
 				margin 18px 0
 				font-size 57px
 			
-			a
-				font-size 17px
-					
-		div.footer
+			ul
 			
-			p
+				li
+					margin 0 16px
+					
+					img
+						width 26px
+						height 26px
+					
+		div
+			
+			h4
 				margin 18px 0
 				font-size 17px
 
 
 @media only screen and (min-width: $xlarge)
 
-	section.welcome
+	main
 
-		div.main
+		section
 			
 			h2 
 				font-size 18px
@@ -162,12 +175,18 @@ section.welcome
 				margin 18px 0
 				font-size 64px
 			
-			a
-				font-size 19px
-					
-		div.footer
+			ul
 			
-			p
+				li
+					margin 0 18px
+					
+					img
+						width 28px
+						height 28px
+					
+		div
+			
+			h4
 				margin 21px 0
 				font-size 19px
 
