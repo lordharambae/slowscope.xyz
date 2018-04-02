@@ -1,0 +1,6 @@
+User-agent: * 
+Disallow: /www/
+Disallow: /src/
+Disallow: /docs/
+Disallow: .gitignore
+Disallow: tsconfig.json
