@@ -64,7 +64,7 @@ section.welcome div.footer p {
   font-family: $rajdhani;
   font-weight: 300;
   line-height: 1;
-  color: $calypso;
+  color: $blue-bayoux;
 }
 @media only screen and (max-width: $xsmall -1) {
   section.welcome div.main h2 {
